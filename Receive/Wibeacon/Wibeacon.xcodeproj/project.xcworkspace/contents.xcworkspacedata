@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/naxin/Documents/THU/&#x5b9e;&#x9a8c;&#x5ba4;/2019-5 ibeacon/Wibeacon/Wibeacon/Wibeacon/RNLAppDelegate.h">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/naxin/Documents/THU/&#x5b9e;&#x9a8c;&#x5ba4;/2019-5 ibeacon/Wibeacon/Wibeacon/Wibeacon/RNLAppDelegate.m">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/naxin/Documents/THU/&#x5b9e;&#x9a8c;&#x5ba4;/2019-5 ibeacon/Wibeacon/Wibeacon/Wibeacon/RNLBeacon.h">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/naxin/Documents/THU/&#x5b9e;&#x9a8c;&#x5ba4;/2019-5 ibeacon/Wibeacon/Wibeacon/Wibeacon/RNLBeacon.m">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/naxin/Documents/THU/&#x5b9e;&#x9a8c;&#x5ba4;/2019-5 ibeacon/Wibeacon/Wibeacon/Wibeacon/RNLBeacon+Distance.h">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/naxin/Documents/THU/&#x5b9e;&#x9a8c;&#x5ba4;/2019-5 ibeacon/Wibeacon/Wibeacon/Wibeacon/RNLBeacon+Distance.m">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/naxin/Documents/THU/&#x5b9e;&#x9a8c;&#x5ba4;/2019-5 ibeacon/Wibeacon/Wibeacon/Wibeacon/RNLBeaconParser.h">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/naxin/Documents/THU/&#x5b9e;&#x9a8c;&#x5ba4;/2019-5 ibeacon/Wibeacon/Wibeacon/Wibeacon/RNLBeaconParser.m">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/naxin/Documents/THU/&#x5b9e;&#x9a8c;&#x5ba4;/2019-5 ibeacon/Wibeacon/Wibeacon/Wibeacon/RNLBeaconScanner.h">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/naxin/Documents/THU/&#x5b9e;&#x9a8c;&#x5ba4;/2019-5 ibeacon/Wibeacon/Wibeacon/Wibeacon/RNLBeaconScanner.m">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/naxin/Documents/THU/&#x5b9e;&#x9a8c;&#x5ba4;/2019-5 ibeacon/Wibeacon/Wibeacon/Wibeacon/RNLBeaconTableViewController.h">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/naxin/Documents/THU/&#x5b9e;&#x9a8c;&#x5ba4;/2019-5 ibeacon/Wibeacon/Wibeacon/Wibeacon/RNLBeaconTableViewController.m">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/naxin/Documents/THU/&#x5b9e;&#x9a8c;&#x5ba4;/2019-5 ibeacon/Wibeacon/Wibeacon/Wibeacon/RNLBeaconTracker.h">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/naxin/Documents/THU/&#x5b9e;&#x9a8c;&#x5ba4;/2019-5 ibeacon/Wibeacon/Wibeacon/Wibeacon/RNLBeaconTracker.m">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/naxin/Documents/THU/&#x5b9e;&#x9a8c;&#x5ba4;/2019-5 ibeacon/Wibeacon/Wibeacon/Wibeacon/RNLLocationTracker.h">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/naxin/Documents/THU/&#x5b9e;&#x9a8c;&#x5ba4;/2019-5 ibeacon/Wibeacon/Wibeacon/Wibeacon/RNLLocationTracker.m">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/naxin/Documents/THU/&#x5b9e;&#x9a8c;&#x5ba4;/2019-5 ibeacon/Wibeacon/Wibeacon/Wibeacon/RNLSignalMeasurement.h">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/naxin/Documents/THU/&#x5b9e;&#x9a8c;&#x5ba4;/2019-5 ibeacon/Wibeacon/Wibeacon/Wibeacon/RNLSignalMeasurement.m">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/naxin/Documents/THU/&#x5b9e;&#x9a8c;&#x5ba4;/2019-5 ibeacon/Wibeacon/Wibeacon/Wibeacon/RNLURLBeaconCompressor.h">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/naxin/Documents/THU/&#x5b9e;&#x9a8c;&#x5ba4;/2019-5 ibeacon/Wibeacon/Wibeacon/Wibeacon/RNLURLBeaconCompressor.m">
+   </FileRef>
+   <FileRef
+      location = "self:">
+   </FileRef>
+</Workspace>

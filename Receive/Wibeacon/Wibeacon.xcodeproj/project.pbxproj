@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		850B00DA2366DA850022C696 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850B00D92366DA850022C696 /* AppDelegate.swift */; };
+		850B00DC2366DA850022C696 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850B00DB2366DA850022C696 /* ViewController.swift */; };
+		850B00DF2366DA850022C696 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850B00DD2366DA850022C696 /* Main.storyboard */; };
+		850B00E12366DA860022C696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 850B00E02366DA860022C696 /* Assets.xcassets */; };
+		850B00E42366DA860022C696 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850B00E22366DA860022C696 /* LaunchScreen.storyboard */; };
+		850B00EF2366DA860022C696 /* WibeaconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850B00EE2366DA860022C696 /* WibeaconTests.swift */; };
+		850B00FA2366DA860022C696 /* WibeaconUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850B00F92366DA860022C696 /* WibeaconUITests.swift */; };
+		851ABE96236C6335003E7C94 /* BeaconScaner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851ABE95236C6335003E7C94 /* BeaconScaner.swift */; };
+		8582F69C24A34B2A00B16BC1 /* RNLBeacon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8582F68824A34B2A00B16BC1 /* RNLBeacon.m */; };
+		8582F69D24A34B2A00B16BC1 /* RNLLocationTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8582F68924A34B2A00B16BC1 /* RNLLocationTracker.m */; };
+		8582F69E24A34B2A00B16BC1 /* RNLBeaconTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8582F68B24A34B2A00B16BC1 /* RNLBeaconTableViewController.m */; };
+		8582F69F24A34B2A00B16BC1 /* RNLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8582F68C24A34B2A00B16BC1 /* RNLAppDelegate.m */; };
+		8582F6A024A34B2A00B16BC1 /* RNLBeaconTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8582F68E24A34B2A00B16BC1 /* RNLBeaconTracker.m */; };
+		8582F6A124A34B2A00B16BC1 /* RNLSignalMeasurement.m in Sources */ = {isa = PBXBuildFile; fileRef = 8582F68F24A34B2A00B16BC1 /* RNLSignalMeasurement.m */; };
+		8582F6A224A34B2A00B16BC1 /* RNLBeaconScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 8582F69024A34B2A00B16BC1 /* RNLBeaconScanner.m */; };
+		8582F6A324A34B2A00B16BC1 /* RNLBeacon+Distance.m in Sources */ = {isa = PBXBuildFile; fileRef = 8582F69424A34B2A00B16BC1 /* RNLBeacon+Distance.m */; };
+		8582F6A424A34B2A00B16BC1 /* RNLURLBeaconCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8582F69824A34B2A00B16BC1 /* RNLURLBeaconCompressor.m */; };
+		8582F6A524A34B2A00B16BC1 /* RNLBeaconParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8582F69A24A34B2A00B16BC1 /* RNLBeaconParser.m */; };
+		85A245A623672BF9006FBF2A /* AddUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A245A523672BF9006FBF2A /* AddUUID.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		850B00EB2366DA860022C696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 850B00CE2366DA850022C696 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 850B00D52366DA850022C696;
+			remoteInfo = Wibeacon;
+		};
+		850B00F62366DA860022C696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 850B00CE2366DA850022C696 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 850B00D52366DA850022C696;
+			remoteInfo = Wibeacon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		850B00D62366DA850022C696 /* Wibeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wibeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		850B00D92366DA850022C696 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		850B00DB2366DA850022C696 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		850B00DE2366DA850022C696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		850B00E02366DA860022C696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		850B00E32366DA860022C696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		850B00E52366DA860022C696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		850B00EA2366DA860022C696 /* WibeaconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WibeaconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		850B00EE2366DA860022C696 /* WibeaconTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WibeaconTests.swift; sourceTree = "<group>"; };
+		850B00F02366DA860022C696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		850B00F52366DA860022C696 /* WibeaconUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WibeaconUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		850B00F92366DA860022C696 /* WibeaconUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WibeaconUITests.swift; sourceTree = "<group>"; };
+		850B00FB2366DA860022C696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		851ABE95236C6335003E7C94 /* BeaconScaner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconScaner.swift; sourceTree = "<group>"; };
+		85722BAE236B3AAD00488EEE /* Wibeacon-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wibeacon-Bridging-Header.h"; sourceTree = "<group>"; };
+		8582F68824A34B2A00B16BC1 /* RNLBeacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNLBeacon.m; sourceTree = "<group>"; };
+		8582F68924A34B2A00B16BC1 /* RNLLocationTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNLLocationTracker.m; sourceTree = "<group>"; };
+		8582F68A24A34B2A00B16BC1 /* RNLBeaconParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNLBeaconParser.h; sourceTree = "<group>"; };
+		8582F68B24A34B2A00B16BC1 /* RNLBeaconTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNLBeaconTableViewController.m; sourceTree = "<group>"; };
+		8582F68C24A34B2A00B16BC1 /* RNLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNLAppDelegate.m; sourceTree = "<group>"; };
+		8582F68D24A34B2A00B16BC1 /* RNLBeaconScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNLBeaconScanner.h; sourceTree = "<group>"; };
+		8582F68E24A34B2A00B16BC1 /* RNLBeaconTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNLBeaconTracker.m; sourceTree = "<group>"; };
+		8582F68F24A34B2A00B16BC1 /* RNLSignalMeasurement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNLSignalMeasurement.m; sourceTree = "<group>"; };
+		8582F69024A34B2A00B16BC1 /* RNLBeaconScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNLBeaconScanner.m; sourceTree = "<group>"; };
+		8582F69124A34B2A00B16BC1 /* RNLBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNLBeacon.h; sourceTree = "<group>"; };
+		8582F69224A34B2A00B16BC1 /* RNLBeacon+Distance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNLBeacon+Distance.h"; sourceTree = "<group>"; };
+		8582F69324A34B2A00B16BC1 /* RNLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNLAppDelegate.h; sourceTree = "<group>"; };
+		8582F69424A34B2A00B16BC1 /* RNLBeacon+Distance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RNLBeacon+Distance.m"; sourceTree = "<group>"; };
+		8582F69524A34B2A00B16BC1 /* RNLBeaconTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNLBeaconTracker.h; sourceTree = "<group>"; };
+		8582F69624A34B2A00B16BC1 /* RNLLocationTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNLLocationTracker.h; sourceTree = "<group>"; };
+		8582F69724A34B2A00B16BC1 /* RNLSignalMeasurement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNLSignalMeasurement.h; sourceTree = "<group>"; };
+		8582F69824A34B2A00B16BC1 /* RNLURLBeaconCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNLURLBeaconCompressor.m; sourceTree = "<group>"; };
+		8582F69924A34B2A00B16BC1 /* RNLBeaconTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNLBeaconTableViewController.h; sourceTree = "<group>"; };
+		8582F69A24A34B2A00B16BC1 /* RNLBeaconParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNLBeaconParser.m; sourceTree = "<group>"; };
+		8582F69B24A34B2A00B16BC1 /* RNLURLBeaconCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNLURLBeaconCompressor.h; sourceTree = "<group>"; };
+		85A245A523672BF9006FBF2A /* AddUUID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUUID.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		850B00D32366DA850022C696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		850B00E72366DA860022C696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		850B00F22366DA860022C696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		850B00CD2366DA850022C696 = {
+			isa = PBXGroup;
+			children = (
+				850B00D82366DA850022C696 /* Wibeacon */,
+				850B00ED2366DA860022C696 /* WibeaconTests */,
+				850B00F82366DA860022C696 /* WibeaconUITests */,
+				850B00D72366DA850022C696 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		850B00D72366DA850022C696 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				850B00D62366DA850022C696 /* Wibeacon.app */,
+				850B00EA2366DA860022C696 /* WibeaconTests.xctest */,
+				850B00F52366DA860022C696 /* WibeaconUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		850B00D82366DA850022C696 /* Wibeacon */ = {
+			isa = PBXGroup;
+			children = (
+				8582F69324A34B2A00B16BC1 /* RNLAppDelegate.h */,
+				8582F68C24A34B2A00B16BC1 /* RNLAppDelegate.m */,
+				8582F69124A34B2A00B16BC1 /* RNLBeacon.h */,
+				8582F68824A34B2A00B16BC1 /* RNLBeacon.m */,
+				8582F69224A34B2A00B16BC1 /* RNLBeacon+Distance.h */,
+				8582F69424A34B2A00B16BC1 /* RNLBeacon+Distance.m */,
+				8582F68A24A34B2A00B16BC1 /* RNLBeaconParser.h */,
+				8582F69A24A34B2A00B16BC1 /* RNLBeaconParser.m */,
+				8582F68D24A34B2A00B16BC1 /* RNLBeaconScanner.h */,
+				8582F69024A34B2A00B16BC1 /* RNLBeaconScanner.m */,
+				8582F69924A34B2A00B16BC1 /* RNLBeaconTableViewController.h */,
+				8582F68B24A34B2A00B16BC1 /* RNLBeaconTableViewController.m */,
+				8582F69524A34B2A00B16BC1 /* RNLBeaconTracker.h */,
+				8582F68E24A34B2A00B16BC1 /* RNLBeaconTracker.m */,
+				8582F69624A34B2A00B16BC1 /* RNLLocationTracker.h */,
+				8582F68924A34B2A00B16BC1 /* RNLLocationTracker.m */,
+				8582F69724A34B2A00B16BC1 /* RNLSignalMeasurement.h */,
+				8582F68F24A34B2A00B16BC1 /* RNLSignalMeasurement.m */,
+				8582F69B24A34B2A00B16BC1 /* RNLURLBeaconCompressor.h */,
+				8582F69824A34B2A00B16BC1 /* RNLURLBeaconCompressor.m */,
+				850B00D92366DA850022C696 /* AppDelegate.swift */,
+				850B00DB2366DA850022C696 /* ViewController.swift */,
+				851ABE95236C6335003E7C94 /* BeaconScaner.swift */,
+				850B00DD2366DA850022C696 /* Main.storyboard */,
+				85A245A523672BF9006FBF2A /* AddUUID.swift */,
+				850B00E02366DA860022C696 /* Assets.xcassets */,
+				850B00E22366DA860022C696 /* LaunchScreen.storyboard */,
+				850B00E52366DA860022C696 /* Info.plist */,
+				85722BAE236B3AAD00488EEE /* Wibeacon-Bridging-Header.h */,
+			);
+			path = Wibeacon;
+			sourceTree = "<group>";
+		};
+		850B00ED2366DA860022C696 /* WibeaconTests */ = {
+			isa = PBXGroup;
+			children = (
+				850B00EE2366DA860022C696 /* WibeaconTests.swift */,
+				850B00F02366DA860022C696 /* Info.plist */,
+			);
+			path = WibeaconTests;
+			sourceTree = "<group>";
+		};
+		850B00F82366DA860022C696 /* WibeaconUITests */ = {
+			isa = PBXGroup;
+			children = (
+				850B00F92366DA860022C696 /* WibeaconUITests.swift */,
+				850B00FB2366DA860022C696 /* Info.plist */,
+			);
+			path = WibeaconUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		850B00D52366DA850022C696 /* Wibeacon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 850B00FE2366DA860022C696 /* Build configuration list for PBXNativeTarget "Wibeacon" */;
+			buildPhases = (
+				850B00D22366DA850022C696 /* Sources */,
+				850B00D32366DA850022C696 /* Frameworks */,
+				850B00D42366DA850022C696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wibeacon;
+			productName = Wibeacon;
+			productReference = 850B00D62366DA850022C696 /* Wibeacon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		850B00E92366DA860022C696 /* WibeaconTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 850B01012366DA860022C696 /* Build configuration list for PBXNativeTarget "WibeaconTests" */;
+			buildPhases = (
+				850B00E62366DA860022C696 /* Sources */,
+				850B00E72366DA860022C696 /* Frameworks */,
+				850B00E82366DA860022C696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				850B00EC2366DA860022C696 /* PBXTargetDependency */,
+			);
+			name = WibeaconTests;
+			productName = WibeaconTests;
+			productReference = 850B00EA2366DA860022C696 /* WibeaconTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		850B00F42366DA860022C696 /* WibeaconUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 850B01042366DA860022C696 /* Build configuration list for PBXNativeTarget "WibeaconUITests" */;
+			buildPhases = (
+				850B00F12366DA860022C696 /* Sources */,
+				850B00F22366DA860022C696 /* Frameworks */,
+				850B00F32366DA860022C696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				850B00F72366DA860022C696 /* PBXTargetDependency */,
+			);
+			name = WibeaconUITests;
+			productName = WibeaconUITests;
+			productReference = 850B00F52366DA860022C696 /* WibeaconUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		850B00CE2366DA850022C696 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = NaXin;
+				TargetAttributes = {
+					850B00D52366DA850022C696 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					850B00E92366DA860022C696 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 850B00D52366DA850022C696;
+					};
+					850B00F42366DA860022C696 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 850B00D52366DA850022C696;
+					};
+				};
+			};
+			buildConfigurationList = 850B00D12366DA850022C696 /* Build configuration list for PBXProject "Wibeacon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 850B00CD2366DA850022C696;
+			productRefGroup = 850B00D72366DA850022C696 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				850B00D52366DA850022C696 /* Wibeacon */,
+				850B00E92366DA860022C696 /* WibeaconTests */,
+				850B00F42366DA860022C696 /* WibeaconUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		850B00D42366DA850022C696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850B00E42366DA860022C696 /* LaunchScreen.storyboard in Resources */,
+				850B00E12366DA860022C696 /* Assets.xcassets in Resources */,
+				850B00DF2366DA850022C696 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		850B00E82366DA860022C696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		850B00F32366DA860022C696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		850B00D22366DA850022C696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8582F69C24A34B2A00B16BC1 /* RNLBeacon.m in Sources */,
+				8582F6A324A34B2A00B16BC1 /* RNLBeacon+Distance.m in Sources */,
+				8582F6A224A34B2A00B16BC1 /* RNLBeaconScanner.m in Sources */,
+				8582F6A524A34B2A00B16BC1 /* RNLBeaconParser.m in Sources */,
+				850B00DC2366DA850022C696 /* ViewController.swift in Sources */,
+				851ABE96236C6335003E7C94 /* BeaconScaner.swift in Sources */,
+				8582F6A124A34B2A00B16BC1 /* RNLSignalMeasurement.m in Sources */,
+				8582F69F24A34B2A00B16BC1 /* RNLAppDelegate.m in Sources */,
+				850B00DA2366DA850022C696 /* AppDelegate.swift in Sources */,
+				8582F6A024A34B2A00B16BC1 /* RNLBeaconTracker.m in Sources */,
+				8582F69E24A34B2A00B16BC1 /* RNLBeaconTableViewController.m in Sources */,
+				8582F69D24A34B2A00B16BC1 /* RNLLocationTracker.m in Sources */,
+				8582F6A424A34B2A00B16BC1 /* RNLURLBeaconCompressor.m in Sources */,
+				85A245A623672BF9006FBF2A /* AddUUID.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		850B00E62366DA860022C696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850B00EF2366DA860022C696 /* WibeaconTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		850B00F12366DA860022C696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850B00FA2366DA860022C696 /* WibeaconUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		850B00EC2366DA860022C696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 850B00D52366DA850022C696 /* Wibeacon */;
+			targetProxy = 850B00EB2366DA860022C696 /* PBXContainerItemProxy */;
+		};
+		850B00F72366DA860022C696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 850B00D52366DA850022C696 /* Wibeacon */;
+			targetProxy = 850B00F62366DA860022C696 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		850B00DD2366DA850022C696 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				850B00DE2366DA850022C696 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		850B00E22366DA860022C696 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				850B00E32366DA860022C696 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		850B00FC2366DA860022C696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		850B00FD2366DA860022C696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		850B00FF2366DA860022C696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6A734835T6;
+				INFOPLIST_FILE = Wibeacon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = naxin.Wibeacon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wibeacon/Wibeacon-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		850B01002366DA860022C696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6A734835T6;
+				INFOPLIST_FILE = Wibeacon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = naxin.Wibeacon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wibeacon/Wibeacon-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		850B01022366DA860022C696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6A734835T6;
+				INFOPLIST_FILE = WibeaconTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = naxin.WibeaconTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wibeacon.app/Wibeacon";
+			};
+			name = Debug;
+		};
+		850B01032366DA860022C696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6A734835T6;
+				INFOPLIST_FILE = WibeaconTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = naxin.WibeaconTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wibeacon.app/Wibeacon";
+			};
+			name = Release;
+		};
+		850B01052366DA860022C696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6A734835T6;
+				INFOPLIST_FILE = WibeaconUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = naxin.WibeaconUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wibeacon;
+			};
+			name = Debug;
+		};
+		850B01062366DA860022C696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6A734835T6;
+				INFOPLIST_FILE = WibeaconUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = naxin.WibeaconUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wibeacon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		850B00D12366DA850022C696 /* Build configuration list for PBXProject "Wibeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				850B00FC2366DA860022C696 /* Debug */,
+				850B00FD2366DA860022C696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		850B00FE2366DA860022C696 /* Build configuration list for PBXNativeTarget "Wibeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				850B00FF2366DA860022C696 /* Debug */,
+				850B01002366DA860022C696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		850B01012366DA860022C696 /* Build configuration list for PBXNativeTarget "WibeaconTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				850B01022366DA860022C696 /* Debug */,
+				850B01032366DA860022C696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		850B01042366DA860022C696 /* Build configuration list for PBXNativeTarget "WibeaconUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				850B01052366DA860022C696 /* Debug */,
+				850B01062366DA860022C696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 850B00CE2366DA850022C696 /* Project object */;
+}
